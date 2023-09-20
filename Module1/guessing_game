@@ -1,0 +1,36 @@
+import random
+
+def guessing_game():
+    number = random.randint(1, 10)
+    tries = 0
+    
+    print("Welcome to the guessing game!")
+    print("I have a number between 1 and 10. Can you guess it?")
+    
+    while True:
+        try:
+            guess = int(input("Enter your guess: "))
+            
+            if 1 <= guess <= 10:
+                tries += 1
+                
+                if guess < number:
+                    print("Too low!")
+                elif guess > number:
+                    print("Too high!")
+                else:
+                    print(f"Congratulations! You've guessed it in {tries} tries.")
+                    break
+            else:
+                print("Please guess a number between 1 and 10.")
+        
+        except ValueError:
+            print("Please enter a valid number.")
+    
+    play_again = input("Want to play again? (y/n): ").lower()
+    if play_again == 'y':
+        guessing_game()
+    else:
+        print("Thanks for playing! Goodbye!")
+
+guessing_game()
