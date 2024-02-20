@@ -18,7 +18,7 @@ For new users, we **highly recommend** [installing Anaconda](https://www.anacond
 
 Use the following installation steps:
 
-* Download [Anaconda](https://www.anaconda.com/products/distribution). We recommend downloading Anaconda’s latest Python 3 version (currently Python 3.9).
+* Download [Anaconda](https://www.anaconda.com/products/distribution). We recommend downloading Anaconda’s latest Python 3 version.
 
 * Install the version of Anaconda which you downloaded, following the instructions on the download page.
 
