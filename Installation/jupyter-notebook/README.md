@@ -22,8 +22,6 @@ Use the following installation steps:
 
 * Install the version of Anaconda which you downloaded, following the instructions on the download page.
 
-* Congratulations, you have installed Jupyter Notebook. To run the notebook:
-
 ## Getting started with Anaconda
 
 Anaconda Distribution contains conda and Anaconda Navigator, as well as Python and hundreds of scientific packages. When you installed Anaconda, you installed all these too.
