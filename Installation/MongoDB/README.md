@@ -14,8 +14,6 @@ compass is a Visualization of Databases and Collections.
 
 ## How to solve ECONNREFUSED Error
 
-Today I managed to successfully install MongoDB Community edition version 5 onto my Macbook (with M1 chip). I wish to share what I did with you in case other students ask: hopefully it may work for them.
-
 The method to do this involved going through the steps here:
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#run-mongodb-community-edition
 
