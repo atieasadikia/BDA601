@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6513ceefdefb9b0744a2900a"
+  }
+},
+{
+  "_id": {
+    "$oid": "6513cf85defb9b0744a2900b"
+  },
+  "age": "30",
+  "assignment_grade": [
+    21.5,
+    45,
+    23
+  ]
+},
+{
+  "_id": {
+    "$oid": "6513d265defb9b0744a2900c"
+  },
+  "_fullname": {
+    "firstname": "Jack",
+    "lastname": "Jordan"
+  }
+}]
